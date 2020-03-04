@@ -1,1 +1,5 @@
-SELECT 'up'
+SELECT
+  'up';
+
+SELECT
+  'down';

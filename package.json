@@ -1,11 +1,10 @@
 {
   "name": "knex-sql-file-migration",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Use sql files instead of `knex.schema` methods.",
   "main": "lib/index",
   "scripts": {
-    "build:doc": "jsdoc2md --template README.hbs --files lib/**/*.js > README.md",
-    "test": "jest --coverage",
+    "test": "jest",
     "postversion": "npm test && git push --follow-tags origin master && npm publish"
   },
   "repository": {
@@ -26,7 +25,6 @@
   },
   "homepage": "https://github.com/victorvuelma/knex-sql-file-migration#readme",
   "devDependencies": {
-    "jest": "^22.4.3",
-    "jsdoc-to-markdown": "^4.0.1"
+    "jest": "^25.1.0"
   }
 }
